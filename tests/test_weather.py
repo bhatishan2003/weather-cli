@@ -1,7 +1,7 @@
 import os
 import pytest
-from weather_cli.utils import get_weather, display_weather, get_city_from_ip
-from weather_cli.cli import run_cli
+from weathora.utils import get_weather, display_weather, get_city_from_ip
+from weathora.cli import run_cli
 
 # Skip tests if API_KEY not set
 API_KEY = os.getenv("OPENWEATHER_API_KEY")

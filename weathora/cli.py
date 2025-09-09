@@ -1,6 +1,6 @@
 import argparse
 import requests
-from weather_cli.utils import get_weather, display_weather
+from .utils import get_weather, display_weather
 
 
 def get_city_from_ip():

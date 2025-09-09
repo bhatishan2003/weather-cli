@@ -1,4 +1,4 @@
-# Weather CLI <!-- omit in toc -->
+# Weathora <!-- omit in toc -->
 
 A simple Python CLI tool to fetch live weather data from any city using the OpenWeather API.
 
@@ -22,8 +22,8 @@ A simple Python CLI tool to fetch live weather data from any city using the Open
 -   Clone the repository:
 
     ```bash
-    git clone https://github.com/bhatishan2003/weather-cli
-    cd weather-cli
+    git clone https://github.com/bhatishan2003/weathora
+    cd weathora
     ```
 
 ### Create and activate a virtual environment:
@@ -105,7 +105,7 @@ export OPENWEATHER_API_KEY="YOUR_SECRET_KEY"
 -   Following commands should be entered to get weather information.
 
     ```powershell
-    weather --city "Delhi"
-    weather --city "London"
-    weather --city "Jammu"
+    weathora --city "Delhi"
+    weathora --city "London"
+    weathora --city "Jammu"
     ```

@@ -22,7 +22,7 @@ test_requires = read_requirements("requirements/requirements_test.txt")
 dev_requires = read_requirements("requirements/requirements_dev.txt")
 
 setup(
-    name="weather_cli",
+    name="weathora",
     version="0.0.1",
     author="Ishan Bhat",
     author_email="ishan2003bhat@gmail.com",
@@ -49,7 +49,7 @@ setup(
     python_requires=">=3.6",
     entry_points={
         "console_scripts": [
-            "weather=weather_cli.cli:main",
+            "weathora=weathora.cli:main",
         ],
     },
     keywords="weather cli python-cli",
