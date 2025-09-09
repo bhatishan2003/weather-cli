@@ -1,4 +1,4 @@
+build
 pre-commit
-requests
-rich
 ruff
+twine

@@ -18,6 +18,7 @@ def read_requirements(filename):
 long_description = (BASE_DIR / "README.md").read_text(encoding="utf-8")
 
 # Optional test/dev requirements
+default_requires = read_requirements("requirements/requirements.txt")
 test_requires = read_requirements("requirements/requirements_test.txt")
 dev_requires = read_requirements("requirements/requirements_dev.txt")
 
@@ -30,7 +31,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=default_requires,
     extras_require={"test": test_requires, "dev": dev_requires, "all": test_requires + dev_requires},
     classifiers=[
         "Development Status :: 4 - Beta",
