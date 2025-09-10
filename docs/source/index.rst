@@ -7,10 +7,6 @@ weathora
 ========
 A simple Python CLI tool to fetch live weather data from any city using the OpenWeather API.
 
-.. image:: https://github.com/bhatishan2003/weathora/actions/workflows/python-app.yml/badge.svg
-   :target: https://github.com/bhatishan2003/weathora/actions/workflows/python-app.yml
-   :alt: CI
-
 .. image:: https://img.shields.io/pypi/v/weathora.svg?color=blue
    :target: https://pypi.org/project/weathora/
    :alt: PyPI version
@@ -22,6 +18,14 @@ A simple Python CLI tool to fetch live weather data from any city using the Open
 .. image:: https://img.shields.io/github/license/bhatishan2003/asciigenator
    :target: LICENSE
    :alt: License
+
+.. image:: https://github.com/bhatishan2003/weathora/actions/workflows/python-app.yml/badge.svg
+   :target: https://github.com/bhatishan2003/weathora/actions/workflows/python-app.yml
+   :alt: CI
+
+.. image:: https://github.com/bhatishan2003/weathora/actions/workflows/sphinx.yml/badge.svg
+   :target: https://github.com/bhatishan2003/weathora/actions/workflows/sphinx.yml
+   :alt: Build and Deploy Sphinx Docs
 
 .. toctree::
    :maxdepth: 2

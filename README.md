@@ -2,27 +2,34 @@
 
 A simple Python CLI tool to fetch live weather data from any city using the OpenWeather API.
 
-[![CI](https://github.com/bhatishan2003/weathora/actions/workflows/python-app.yml/badge.svg)](https://github.com/bhatishan2003/weathora/actions/workflows/python-app.yml)
 [![PyPI version](https://img.shields.io/pypi/v/weathora.svg?color=blue)](https://pypi.org/project/weathora/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/weathora.svg)](https://pypi.org/project/weathora/)
 [![License](https://img.shields.io/github/license/bhatishan2003/asciigenator)](LICENSE)
+[![CI](https://github.com/bhatishan2003/weathora/actions/workflows/python-app.yml/badge.svg)](https://github.com/bhatishan2003/weathora/actions/workflows/python-app.yml)
+[![Build and Deploy Sphinx Docs](https://github.com/bhatishan2003/weathora/actions/workflows/sphinx.yml/badge.svg)](https://github.com/bhatishan2003/weathora/actions/workflows/sphinx.yml)
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Installation](#installation)
-  - [Create and activate a virtual environment:](#create-and-activate-a-virtual-environment)
-- [Setup API Key 🔑](#setup-api-key-)
-  - [Step 1: Create an Account](#step-1-create-an-account)
-  - [Step 2: Get Your API Key](#step-2-get-your-api-key)
-  - [Step 3: Store the API Key](#step-3-store-the-api-key)
-    - [🔹 PowerShell](#-powershell)
-    - [🔹Bash](#bash)
-- [Usage](#usage)
-  - [Command Line Usage](#command-line-usage)
+-   [Installation](#installation)
+    -   [Create and activate a virtual environment:](#create-and-activate-a-virtual-environment)
+-   [Setup API Key 🔑](#setup-api-key-)
+    -   [Step 1: Create an Account](#step-1-create-an-account)
+    -   [Step 2: Get Your API Key](#step-2-get-your-api-key)
+    -   [Step 3: Store the API Key](#step-3-store-the-api-key)
+        -   [🔹 PowerShell](#-powershell)
+        -   [🔹Bash](#bash)
+-   [Usage](#usage)
+    -   [Command Line Usage](#command-line-usage)
 
 ---
 
 ## Installation
+
+-   From pip
+
+    ```bash
+    pip install weathora
+    ```
 
 -   Clone the repository:
 
