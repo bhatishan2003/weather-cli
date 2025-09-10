@@ -21,6 +21,7 @@ long_description = (BASE_DIR / "README.md").read_text(encoding="utf-8")
 default_requires = read_requirements("requirements/requirements.txt")
 test_requires = read_requirements("requirements/requirements_test.txt")
 dev_requires = read_requirements("requirements/requirements_dev.txt")
+docs_requires = read_requirements("requirements/requirements_docs.txt")
 
 setup(
     name="weathora",
@@ -32,7 +33,12 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=default_requires,
-    extras_require={"test": test_requires, "dev": dev_requires, "all": test_requires + dev_requires},
+    extras_require={
+        "test": test_requires,
+        "dev": dev_requires,
+        "docs": docs_requires,
+        "all": test_requires + dev_requires + docs_requires,
+    },
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
