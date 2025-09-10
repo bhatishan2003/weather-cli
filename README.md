@@ -2,6 +2,11 @@
 
 A simple Python CLI tool to fetch live weather data from any city using the OpenWeather API.
 
+[![CI](https://github.com/bhatishan2003/weathora/actions/workflows/python-app.yml/badge.svg)](https://github.com/bhatishan2003/weathora/actions/workflows/python-app.yml)
+[![PyPI version](https://img.shields.io/pypi/v/weathora.svg?color=blue)](https://pypi.org/project/weathora/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/weathora.svg)](https://pypi.org/project/weathora/)
+[![License](https://img.shields.io/github/license/bhatishan2003/asciigenator)](LICENSE)
+
 ## Table of Contents <!-- omit in toc -->
 
 - [Installation](#installation)
