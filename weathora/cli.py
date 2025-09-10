@@ -45,6 +45,22 @@ def run_cli(city=None, units="C"):
 
 
 def main():
+    """
+    Entry point for the Weathora CLI.
+
+    This function initializes the argument parser, processes command-line
+    arguments, and invokes the CLI runner.
+
+    Command-line arguments:
+        --city (str, optional): Name of the city to fetch weather data for.
+                                If not provided, the CLI may fall back to
+                                IP-based location detection (if implemented).
+
+    Notes:
+        - Units for temperature default to Celsius ("C").
+        - This function is designed to be called when running the package
+          as a script, e.g., ``weathora --city London``.
+    """
     parser = argparse.ArgumentParser(description="Fetch live weather data for a given city using OpenWeather API.")
     parser.add_argument("--city", type=str, help="Name of the city to fetch weather for")
     # Units argument removed for simplicity; defaults to "C"
