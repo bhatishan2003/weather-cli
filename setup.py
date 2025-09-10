@@ -25,7 +25,7 @@ docs_requires = read_requirements("requirements/requirements_docs.txt")
 
 setup(
     name="weathora",
-    version="0.0.1",
+    version="0.0.2",
     author="Ishan Bhat",
     author_email="ishan2003bhat@gmail.com",
     description="A Python CLI tool to fetch live weather data using OpenWeather API",
